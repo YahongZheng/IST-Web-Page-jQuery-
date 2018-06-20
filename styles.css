@@ -1,0 +1,172 @@
+/*Yahong Zheng*/
+/*ISTE340*/
+/*Project 2*/
+
+/*set the background-image for body*/
+body{
+	background-image: url("bg.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+/*set the header on the top*/
+header{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-style: italic;
+	font-size: 120%;
+	color: #FF7F50;
+	text-shadow: 2px 2px 6px black;
+}
+
+/*set the proporty for accordion h3 tag*/
+h3{
+	opacity: 0.5;
+	filter: alpha(opacity=50); 
+	width: auto;
+	background-color:rgba(235, 240, 250, 0.8);
+	color: #FF7F50;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3% 6%;
+	overflow: auto;
+	text-align: center;
+	cursor: pointer;
+}
+h3:hover{
+	background-color:rgba(255, 153, 102, 0.8);
+}
+
+/*set the proporty for accordion content*/
+h2{
+	color: #FF7F50;
+	text-align: center;
+	font-style: italic;
+}
+p{
+	font-style: italic;
+	text-align: center;
+}
+
+/*set the proporty for map*/
+#map{
+	width: 80%;
+	height: 900px;
+	position: relative;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+#map-iframe{
+	top: -300px;
+	left: -160px;
+	width: 80%;
+	height: 900px;
+	position: absolute;
+	display: block;
+}
+
+/*set the proporty for the About page*/
+#quote,#quoteAuthor{
+	color: #FF7F50;
+	font-style: italic;
+}
+
+/*set the proporty for the Undergraduate and Graduate pages*/
+.topic{
+	color: black;
+	text-align: center;
+	font-style: italic;
+	text-shadow: 2px 2px #FF7F50;
+}
+
+.pDescr{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 2.0em;
+}
+
+.liCon{
+	color: #FF7F50;
+}
+
+/*set the proporty for the minors page*/
+.box-title{
+	color: #FF7F50;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.5em;
+	text-decoration: underline;
+}
+.pMinors{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.0em;
+}
+h4{
+	color: #FF7F50;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+/*set the proporty for the employment page*/
+.pEmpTitle{
+	color: #FF7F50;
+	text-decoration: underline;
+}
+#statBox{
+	background-color: #FFE4E1;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid #FF7F50;
+	border-radius: 25px;
+}
+.tables{
+	width: 900px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+}
+.table_header{
+	color: #FF7F50;
+	background-color: black;
+}
+.table_data{
+	color: black;
+	background-color: #FF7F50;
+}
+th, td{
+	padding: 5px;
+}
+
+/*set the proporty for faculty and staff pages*/
+#peoButton{
+	background-color: #FF7F50;
+	color: black;
+	cursor: pointer;
+}
+
+/*set the proporty of footer*/
+#footer{
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+	background-color: #FF7F50;
+	padding: 10px;
+	border: 1px solid black;
+	display: inline;
+}
+
+
+
+
+
+
+
+
